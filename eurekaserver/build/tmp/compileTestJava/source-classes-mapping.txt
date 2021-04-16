@@ -1,0 +1,2 @@
+com/grayson/eurekaserver/EurekaserverApplicationTests.java
+ com.grayson.eurekaserver.EurekaserverApplicationTests

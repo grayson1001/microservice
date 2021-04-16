@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: eureka-server-1
+server:
+  port: 8801
+eureka:
+  server:
+    enable-self-preservation: true
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+    lease-expiration-duration-in-seconds: 90
+    lease-renewal-interval-in-seconds: 30
+  client:
+    healthcheck:
+      enabled: true
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8801/eureka/,http://localhost:8802/eureka/
+
