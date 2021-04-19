@@ -15,10 +15,17 @@
  */
 package com.grayson.customer.controller;
 
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
+
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
 
 /**
  * IndexController
@@ -36,9 +43,20 @@ public class IndexController {
     @Autowired
     private RestTemplate restTemplate;
 
+    @HystrixCommand(fallbackMethod = "getDefaultHello")
     @RequestMapping("/index")
     public String getHello(){
-        String url = "http://"+ applicationName +"/hello";
+        String url = "http://"+ applicationName +"/user/hello";
         return  restTemplate.getForObject(url, String.class);
+    }
+
+    public String sayHi(String name) {
+        String url = "http://"+ applicationName +"/user/hi" + "?name=" + name;
+        return restTemplate.getForObject(url ,String.class);
+    }
+
+
+    public String getDefaultHello(){
+        return "hello";
     }
 }

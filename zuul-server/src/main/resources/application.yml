@@ -1,0 +1,19 @@
+
+server:
+  port: 9004
+spring:
+  application:
+    name: zuul-service
+eureka:
+  client:
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://peer1:8801/eureka/
+zuul:
+  routes:
+    eureka-client-customer:
+      path: /customer/**
+      serviceId: eureka-client-customer
+    eureka-feign-customer:
+      path: /feign/customer/**
+      serviceId: eureka-feign-customer

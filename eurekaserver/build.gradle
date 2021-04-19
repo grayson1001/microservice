@@ -36,3 +36,19 @@ dependencyManagement {
 test {
 	useJUnitPlatform()
 }
+
+bootJar {
+	destinationDir file('dist')
+	archiveName project.name + '.jar'
+	doLast {
+		copy {
+			from file('src/main/resources')
+			into 'dist'
+		}
+	}
+}
+
+clean {
+	println "delete ${projectDir}/dist"
+	delete "${projectDir}/dist"
+}

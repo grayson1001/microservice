@@ -15,9 +15,7 @@
  */
 package com.grayson.producer.controller;
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * HelloController
@@ -29,10 +27,16 @@ import org.springframework.web.bind.annotation.RestController;
  **/
 
 @RestController
+@RequestMapping(path = "/user")
 public class HelloController {
 
     @RequestMapping("/hello")
     public String sayHello(){
         return "hello world!";
+    }
+
+    @RequestMapping("/hi")
+    public String home(@RequestParam String name) {
+        return "hi," + name;
     }
 }

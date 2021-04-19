@@ -1,2 +1,0 @@
-com/grayson/eurekaserver/Eurekaserver2Application.java
- com.grayson.eurekaserver.Eurekaserver2Application
