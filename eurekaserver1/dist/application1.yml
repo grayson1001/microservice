@@ -1,0 +1,21 @@
+server:
+  port: 8801
+spring:
+  application:
+    name: eureka-server
+eureka:
+  server:
+    enable-self-preservation: true
+    eviction-interval-timer-in-ms: 5000
+  instance:
+    hostname: peer1
+    prefer-ip-address: false
+    lease-expiration-duration-in-seconds: 90
+    lease-renewal-interval-in-seconds: 30
+  client:
+    healthcheck:
+      enabled: true
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://peer2:8802/eureka/,http://peer3:8803/eureka/

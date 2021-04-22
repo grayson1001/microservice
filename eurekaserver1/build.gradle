@@ -1,0 +1,54 @@
+plugins {
+	id 'org.springframework.boot' version '2.3.10.RELEASE'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'java'
+	id 'eclipse'
+	id 'idea'
+}
+
+group = 'com.grayson'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+repositories {
+	mavenCentral()
+	maven { url "https://maven.aliyun.com/nexus/content/groups/public/"}
+	mavenLocal()
+}
+
+ext {
+	set('springCloudVersion', "Hoxton.SR10")
+}
+
+dependencies {
+	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-server'
+	testImplementation('org.springframework.boot:spring-boot-starter-test') {
+		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+	}
+}
+
+dependencyManagement {
+	imports {
+		mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+	}
+}
+
+test {
+	useJUnitPlatform()
+}
+
+bootJar {
+	destinationDir file('dist')
+	archiveName project.name + '.jar'
+	doLast {
+		copy {
+			from file('src/main/resources')
+			into 'dist'
+		}
+	}
+}
+
+clean {
+	println "delete ${projectDir}/dist"
+	delete "${projectDir}/dist"
+}

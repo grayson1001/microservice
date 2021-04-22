@@ -20,6 +20,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestOperations;
 import org.springframework.web.client.RestTemplate;
 
 /**
@@ -35,16 +36,15 @@ public class HelloController {
 
     private static final String applicationName = "eureka-client-provider";
 
-    /*
     @Autowired
     private RestTemplate restTemplate;
+
 
     @RequestMapping("/index")
     public String getHello(){
         String url = "http://"+ applicationName +"/user/hello";
         return  restTemplate.getForObject(url, String.class);
     }
-    */
 
 
     @Value("${word}")
