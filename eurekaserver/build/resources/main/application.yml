@@ -15,7 +15,7 @@ eureka:
   client:
     healthcheck:
       enabled: true
-    register-with-eureka: true
-    fetch-registry: true
+    register-with-eureka: false
+    fetch-registry: false
     service-url:
-      defaultZone: http://peer2:8802/eureka/
+      defaultZone: http://peer1:8801/eureka/

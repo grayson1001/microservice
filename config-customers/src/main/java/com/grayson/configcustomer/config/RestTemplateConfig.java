@@ -13,12 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package config;
+package com.grayson.configcustomer.config;
 
-import org.springframework.boot.web.client.RestTemplateBuilder;
+import com.netflix.loadbalancer.IRule;
+import com.netflix.loadbalancer.RandomRule;
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.web.client.RestOperations;
 import org.springframework.web.client.RestTemplate;
 
 /**
@@ -27,11 +28,10 @@ import org.springframework.web.client.RestTemplate;
  * @Description:
  * @Author: grayson
  * @Version 1.0
- * @Date: 2021-04-20 17:42
+ * @Date: 2021-04-23 11:09
  **/
 @Configuration
 public class RestTemplateConfig {
-
 
     @Bean
     public RestTemplate restTemplate(){
@@ -39,3 +39,4 @@ public class RestTemplateConfig {
     }
 
 }
+

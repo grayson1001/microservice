@@ -13,14 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.configcustomer.controller;
+package com.grayson.configcustomer.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestOperations;
 import org.springframework.web.client.RestTemplate;
 
 /**
@@ -29,7 +28,7 @@ import org.springframework.web.client.RestTemplate;
  * @Description:
  * @Author: grayson
  * @Version 1.0
- * @Date: 2021-04-20 17:43
+ * @Date: 2021-04-23 11:10
  **/
 @RestController
 public class HelloController {
@@ -39,13 +38,11 @@ public class HelloController {
     @Autowired
     private RestTemplate restTemplate;
 
-
     @RequestMapping("/index")
     public String getHello(){
         String url = "http://"+ applicationName +"/user/hello";
         return  restTemplate.getForObject(url, String.class);
     }
-
 
     @Value("${word}")
     private String word;

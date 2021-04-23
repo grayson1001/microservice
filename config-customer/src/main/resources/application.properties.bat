@@ -1,3 +1,0 @@
-
-server.port=9006
-spring.application.name=config-customer
