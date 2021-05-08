@@ -20,7 +20,77 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3428d5e-432e-4c4e-b215-a03ffe4c584c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../customer/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-customers/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../config-customers/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-customers/src/main/java/com/grayson/configcustomer/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../config-customers/src/main/java/com/grayson/configcustomer/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-customers/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-customers/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../config-customers/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer/.gradle/6.5/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer/.gradle/6.5/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer/.gradle/6.8.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../customer/.gradle/6.8.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer/.gradle/6.8.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../customer/.gradle/6.8.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer/.gradle/6.8.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../customer/.gradle/6.8.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer/.gradle/6.8.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../customer/.gradle/6.8.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer/.gradle/6.8.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../customer/.gradle/6.8.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer/.gradle/6.8.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../customer/.gradle/6.8.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer/.gradle/6.8.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../customer/.gradle/6.8.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../customer/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../customer/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../customer/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer/build/classes/java/main/com/grayson/customer/CustomerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../customer/build/classes/java/main/com/grayson/customer/CustomerApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer/build/classes/java/main/com/grayson/customer/controller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../customer/build/resources/main/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../customer/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer/src/main/java/com/grayson/customer/CustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../customer/src/main/java/com/grayson/customer/CustomerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer/src/main/java/com/grayson/customer/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../customer/src/main/java/com/grayson/customer/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../customer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../customer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/.gradle/6.5/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/.gradle/6.5/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/.gradle/6.5/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/.gradle/6.5/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/.gradle/6.5/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/.gradle/6.8.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../eurekaserver/.gradle/6.8.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/.gradle/6.8.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../eurekaserver/.gradle/6.8.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/.gradle/6.8.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../eurekaserver/.gradle/6.8.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/.gradle/6.8.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../eurekaserver/.gradle/6.8.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../eurekaserver/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../eurekaserver/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/build/resources/main/application2.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/build/resources/main/application3.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/src/main/resources/application2.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eurekaserver/src/main/resources/application3.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../feign-customer/src/main/java/com/grayson/customer/FeignCustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../feign-customer/src/main/java/com/grayson/customer/FeignCustomerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../feign-customer/src/main/java/com/grayson/customer/feign/HelloServiceFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/../feign-customer/src/main/java/com/grayson/customer/feign/HelloServiceFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../feign-customer/src/main/java/com/grayson/customer/feign/HelloServiceFeignFallBack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../feign-customer/src/main/java/com/grayson/customer/fallback/HelloServiceFeignFallBack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/.gradle/6.5/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/.gradle/6.5/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/.gradle/6.8.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../producer/.gradle/6.8.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/.gradle/6.8.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../producer/.gradle/6.8.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../producer/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../producer/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../producer/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-config-demo" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud-config-demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zuul-server/src/main/java/com/grayson/zuulserver/filter/TokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../zuul-server/src/main/java/com/grayson/zuulserver/filter/TokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zuul-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../zuul-server/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +177,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1870" height="253" key="GridCell.Tab.0.bottom" timestamp="1619145797081">
+    <state width="1870" height="211" key="GridCell.Tab.0.bottom" timestamp="1619660464396">
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>
     <state width="1870" height="141" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.724@1280.23.1920.1057" timestamp="1618908776742" />
@@ -116,11 +186,12 @@
     <state width="1870" height="141" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.728@1280.23.1920.1057" timestamp="1618909092565" />
     <state width="1870" height="389" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.729@1280.23.1920.1057" timestamp="1618909469279" />
     <state width="1870" height="208" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.730@1280.23.1920.1057" timestamp="1618909655331" />
-    <state width="1870" height="253" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.732@1280.23.1920.1057" timestamp="1619145797081" />
+    <state width="1870" height="211" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.732@1280.23.1920.1057" timestamp="1619660464396" />
     <state width="1870" height="253" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.733@1280.23.1920.1057" timestamp="1619145650542" />
     <state width="1870" height="185" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.735@1280.23.1920.1057" timestamp="1619084316789" />
     <state width="1870" height="401" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.736@1280.23.1920.1057" timestamp="1618976558067" />
-    <state width="1870" height="253" key="GridCell.Tab.0.center" timestamp="1619145797081">
+    <state width="1870" height="253" key="GridCell.Tab.0.bottom/1280.23.1920.1057/0.23.1280.739@1280.23.1920.1057" timestamp="1619505896762" />
+    <state width="1870" height="211" key="GridCell.Tab.0.center" timestamp="1619660464394">
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>
     <state width="1870" height="141" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.724@1280.23.1920.1057" timestamp="1618908776741" />
@@ -129,11 +200,12 @@
     <state width="1870" height="141" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.728@1280.23.1920.1057" timestamp="1618909092564" />
     <state width="1870" height="389" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.729@1280.23.1920.1057" timestamp="1618909469278" />
     <state width="1870" height="208" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.730@1280.23.1920.1057" timestamp="1618909655330" />
-    <state width="1870" height="253" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.732@1280.23.1920.1057" timestamp="1619145797081" />
+    <state width="1870" height="211" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.732@1280.23.1920.1057" timestamp="1619660464394" />
     <state width="1870" height="253" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.733@1280.23.1920.1057" timestamp="1619145650540" />
     <state width="1870" height="185" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.735@1280.23.1920.1057" timestamp="1619084316787" />
     <state width="1870" height="401" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.736@1280.23.1920.1057" timestamp="1618976558066" />
-    <state width="1870" height="253" key="GridCell.Tab.0.left" timestamp="1619145797080">
+    <state width="1870" height="253" key="GridCell.Tab.0.center/1280.23.1920.1057/0.23.1280.739@1280.23.1920.1057" timestamp="1619505896760" />
+    <state width="1870" height="211" key="GridCell.Tab.0.left" timestamp="1619660464393">
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>
     <state width="1870" height="141" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.724@1280.23.1920.1057" timestamp="1618908776741" />
@@ -142,11 +214,12 @@
     <state width="1870" height="141" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.728@1280.23.1920.1057" timestamp="1618909092564" />
     <state width="1870" height="389" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.729@1280.23.1920.1057" timestamp="1618909469278" />
     <state width="1870" height="208" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.730@1280.23.1920.1057" timestamp="1618909655329" />
-    <state width="1870" height="253" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.732@1280.23.1920.1057" timestamp="1619145797080" />
+    <state width="1870" height="211" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.732@1280.23.1920.1057" timestamp="1619660464393" />
     <state width="1870" height="253" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.733@1280.23.1920.1057" timestamp="1619145650539" />
     <state width="1870" height="185" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.735@1280.23.1920.1057" timestamp="1619084316787" />
     <state width="1870" height="401" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.736@1280.23.1920.1057" timestamp="1618976558065" />
-    <state width="1870" height="253" key="GridCell.Tab.0.right" timestamp="1619145797081">
+    <state width="1870" height="253" key="GridCell.Tab.0.left/1280.23.1920.1057/0.23.1280.739@1280.23.1920.1057" timestamp="1619505896759" />
+    <state width="1870" height="211" key="GridCell.Tab.0.right" timestamp="1619660464395">
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>
     <state width="1870" height="141" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.724@1280.23.1920.1057" timestamp="1618908776741" />
@@ -155,10 +228,11 @@
     <state width="1870" height="141" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.728@1280.23.1920.1057" timestamp="1618909092565" />
     <state width="1870" height="389" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.729@1280.23.1920.1057" timestamp="1618909469278" />
     <state width="1870" height="208" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.730@1280.23.1920.1057" timestamp="1618909655330" />
-    <state width="1870" height="253" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.732@1280.23.1920.1057" timestamp="1619145797081" />
+    <state width="1870" height="211" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.732@1280.23.1920.1057" timestamp="1619660464395" />
     <state width="1870" height="253" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.733@1280.23.1920.1057" timestamp="1619145650541" />
     <state width="1870" height="185" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.735@1280.23.1920.1057" timestamp="1619084316788" />
     <state width="1870" height="401" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.736@1280.23.1920.1057" timestamp="1618976558066" />
+    <state width="1870" height="253" key="GridCell.Tab.0.right/1280.23.1920.1057/0.23.1280.739@1280.23.1920.1057" timestamp="1619505896761" />
     <state x="1950" y="377" key="NewModule_or_Project.wizard" timestamp="1618901481892">
       <screen x="1280" y="23" width="1920" height="1057" />
     </state>

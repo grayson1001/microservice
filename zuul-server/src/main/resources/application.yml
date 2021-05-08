@@ -17,3 +17,7 @@ zuul:
     eureka-feign-customer:
       path: /feign/customer/**
       serviceId: eureka-feign-customer
+    baidu:
+      path: /baidu/**
+      url: https://www.baidu.com/
+

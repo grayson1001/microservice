@@ -1,6 +1,8 @@
 com/grayson/customer/config/RestTemplateConfig.java
  com.grayson.customer.config.RestTemplateConfig
+com/grayson/customer/controller/HelloController.java
+ com.grayson.customer.controller.HelloController
 com/grayson/customer/CustomerApplication.java
  com.grayson.customer.CustomerApplication
-com/grayson/customer/controller/IndexController.java
- com.grayson.customer.controller.IndexController
+com/grayson/customer/config/ServletRegistrationConfig.java
+ com.grayson.customer.config.ServletRegistrationConfig

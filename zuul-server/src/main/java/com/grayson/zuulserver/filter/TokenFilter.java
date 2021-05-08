@@ -30,7 +30,7 @@ import javax.servlet.http.HttpServletRequest;
  * @Version 1.0
  * @Date: 2021-04-19 20:57
  **/
-@Service
+//@Service
 public class TokenFilter extends ZuulFilter {
 
     //四种类型：pre,routing,error,post
